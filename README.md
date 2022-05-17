@@ -137,11 +137,11 @@ plt.title("Canny_edges")
 plt.xticks([])
 plt.yticks([])
 plt.show()
+~~~
 
 
 
 
-```
 ## Output:
 ### SOBEL EDGE DETECTOR
 
