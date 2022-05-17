@@ -34,7 +34,7 @@ Display the filtered image using plot and imshow.
 ## Program:
 
 ``` Python
-# Import the packages
+### Sobel X:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -56,7 +56,7 @@ plt.yticks([])
 plt.show()
 
 
-# Load the image, Convert to grayscale and remove noise
+### Sobel Y:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -76,7 +76,7 @@ plt.yticks([])
 plt.show()
 
 
-# SOBEL EDGE DETECTOR
+### Sobel XY:
 import cv2
 import matplotlib.pyplot as plt
 image=cv2.imread("1.jpg")
@@ -95,7 +95,7 @@ plt.yticks([])
 plt.show()
 
 
-# LAPLACIAN EDGE DETECTOR
+### LAPLACIAN EDGE DETECTOR
 
 import cv2
 import matplotlib.pyplot as plt
@@ -116,7 +116,7 @@ plt.show()
 
 
 
-# CANNY EDGE DETECTOR
+### CANNY EDGE DETECTOR
 
 import cv2
 import matplotlib.pyplot as plt
