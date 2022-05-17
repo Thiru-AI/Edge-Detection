@@ -33,8 +33,10 @@ Display the filtered image using plot and imshow.
  
 ## Program:
 
-``` Python
-### Sobel X:
+
+
+## Sobel X:
+~~~
 
 import cv2
 import matplotlib.pyplot as plt
@@ -54,10 +56,10 @@ plt.title("Sobel-X")
 plt.xticks([])
 plt.yticks([])
 plt.show()
-
+~~~
 
 ### Sobel Y:
-
+~~~
 import cv2
 import matplotlib.pyplot as plt
 image=cv2.imread("1.jpg")
@@ -74,9 +76,10 @@ plt.title("Sobel-Y")
 plt.xticks([])
 plt.yticks([])
 plt.show()
-
+~~~
 
 ### Sobel XY:
+~~~
 import cv2
 import matplotlib.pyplot as plt
 image=cv2.imread("1.jpg")
@@ -93,10 +96,10 @@ plt.title("Sobel-XY")
 plt.xticks([])
 plt.yticks([])
 plt.show()
-
+~~~
 
 ### LAPLACIAN EDGE DETECTOR
-
+~~~
 import cv2
 import matplotlib.pyplot as plt
 image=cv2.imread("1.jpg")
@@ -113,11 +116,11 @@ plt.title("Laplacian")
 plt.xticks([])
 plt.yticks([])
 plt.show()
-
+~~~
 
 
 ### CANNY EDGE DETECTOR
-
+~~~
 import cv2
 import matplotlib.pyplot as plt
 image=cv2.imread("1.jpg")
