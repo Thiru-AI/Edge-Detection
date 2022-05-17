@@ -9,18 +9,12 @@ Anaconda - Python 3.7
 ### Step1:
 Import the required packages for further process.
 
-
-<br>
-
-
 ### Step2:
 Read the image and convert the rgb image to gray scale image.
 <br>
 
 ### Step3:
 Use filters for smoothing the image to reduce the noise.
-
-<br>
 
 ### Step4:
 Apply the respective filters - Sobel, Laplacian edge detector and Canny edge detector.
